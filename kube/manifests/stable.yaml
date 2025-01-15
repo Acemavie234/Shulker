@@ -7276,7 +7276,7 @@ spec:
       serviceAccountName: shulker-operator
       containers:
         - name: shulker-operator
-          image: "ghcr.io/jeremylvln/shulker-operator:0.11.0"
+          image: "ghcr.io/jeremylvln/shulker-operator:sha-d4a4512"
           imagePullPolicy: Always
           args:
             - --metrics-bind-address=0.0.0.0:8080
